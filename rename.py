@@ -13,4 +13,5 @@ for file in os.listdir(folder):
         
     else:
         os.rename(filename, folder + newname + '.jpg')
+        continue    # if .jpg files appear first
     count += 1
